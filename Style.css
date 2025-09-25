@@ -1,0 +1,68 @@
+/* Task1-css */
+p>span{
+    color: purple;
+}
+/* Task2-css */
+.childselector > li{
+    background-color: yellow;
+}
+/* Task3-css */
+#adjacent, h1 + p{
+    color: #ff4800;
+    font-size:small;
+    font-style: italic;
+}
+#adjacent h1{
+    color: blue;
+}
+/* Task4-css */
+.general,h4 ~ p{
+    color: green;
+}
+/* Task5-CSS */
+.fchild ol li:first-child{
+    font-weight: bold;
+    color: blue;
+}
+.fchild ol li:last-child{
+    font-weight: bold;
+    color: red;
+    font-style: italic;
+}
+
+
+/* Task6-css */
+.buttons button:hover{
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+/* Task7-css */
+input:focus{
+    border: 3px solid orangered;
+    background-color:yellow;
+}
+/* Task8-css */
+.Firstletter::first-letter{
+    font-size: 40px;
+    color: red;
+    font-weight: 900%;
+}
+.Firstletter p:hover::first-letter{
+   color: green;
+   font-weight: 900%;
+   font-size: 40px;
+}
+/* Task9-css */
+h2::before{
+    content: '😍';
+}
+h2::after{
+    content: '🐘';
+}
+
+/* Task10-css*/
+#select::selection{
+    background-color: orange;
+    color: white;
+}
